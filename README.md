@@ -15,7 +15,7 @@ Python Modules used here--->
 4. time
 
 
-Project sample video link with 2 players mode------> https://youtu.be/K6LHcfr1HMQ
+Project sample video link with 2 players mode: https://youtu.be/K6LHcfr1HMQ
 
 
 Follow me on LinkedIn: https://www.linkedin.com/in/samarpan-dasgupta-4aa1061b0

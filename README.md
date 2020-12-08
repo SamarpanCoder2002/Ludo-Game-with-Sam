@@ -1,3 +1,10 @@
+![](https://img.shields.io/badge/Programming_Language-Python-blue.svg)
+![](https://img.shields.io/badge/Main_Tool_Used-Tkinter-blue.svg)
+![](https://img.shields.io/badge/Supporting_Tool_Used-Tkinter-orange.svg)
+![](https://img.shields.io/badge/Python_Version-3.7-blue.svg)
+![](https://img.shields.io/badge/Status-Complete-green.svg)
+
+
 # Hello Programmers  
 
 ###     _Now I am going to present you my New Game_ 

@@ -20,9 +20,9 @@
 
 
 
-## [Click Here to See the Project Video](https://youtu.be/K6LHcfr1HMQ "LCO")
+- ## [Click Here to See the Project Video](https://youtu.be/K6LHcfr1HMQ "LCO")
 
-## [Follow Me on LinkedIn to Get Regular Project Updates](https://www.linkedin.com/in/samarpan-dasgupta-4aa1061b0/ "LCO")
+- ## [Follow Me on LinkedIn to Get Regular Project Updates](https://www.linkedin.com/in/samarpan-dasgupta-4aa1061b0/ "LCO")
 
 
 

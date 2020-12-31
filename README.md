@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Programming_Language-Python-blue.svg)
-![](https://img.shields.io/badge/Main_Tool_Used-Tkinter-blue.svg)
+![](https://img.shields.io/badge/Main_Tool_Used-Tkinter-gold.svg)
 ![](https://img.shields.io/badge/Supporting_Tool_Used-Pillow-orange.svg)
-![](https://img.shields.io/badge/Python_Version-3.7-blue.svg)
+![](https://img.shields.io/badge/Python_Version-3.7-brown.svg)
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
 # <p align="center"> Hello Programmers  </p>

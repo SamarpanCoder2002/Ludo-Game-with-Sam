@@ -9,7 +9,7 @@ class Ludo:
     def __init__(self, root,six_side_block,five_side_block,four_side_block,three_side_block,two_side_block,one_side_block):
         self.window = root
         # Make canvas
-        self.make_canvas = Canvas(self.window, bg="blue", width=800, height=630)
+        self.make_canvas = Canvas(self.window, bg="#4d4dff", width=800, height=630)
         self.make_canvas.pack(fill=BOTH,expand=1)
 
         # Make some containers to store data
@@ -115,7 +115,7 @@ class Ludo:
         start_y = 15 + 240
         end_x = 100 + 40
         end_y = 15 + 240 + (40 * 3)
-        for i in range(5):
+        for _ in range(5):
             self.make_canvas.create_line(start_x, start_y, end_x, end_y, width=3)
             start_x+=40
             end_x+= 40
@@ -125,7 +125,7 @@ class Ludo:
         start_y = 15 + 240
         end_x = 100+240+(40*3)+40
         end_y = 15 + 240 + (40 * 3)
-        for i in range(5):
+        for _ in range(5):
             self.make_canvas.create_line(start_x, start_y, end_x, end_y, width=3)
             start_x += 40
             end_x += 40
@@ -135,7 +135,7 @@ class Ludo:
         start_y = 15+40
         end_x = 100+240+(40*3)
         end_y = 15+40
-        for i in range(5):
+        for _ in range(5):
             self.make_canvas.create_line(start_x, start_y, end_x, end_y, width=3)
             start_y += 40
             end_y += 40
@@ -145,7 +145,7 @@ class Ludo:
         start_y = 15 + (40*6)+(40*3)+40
         end_x = 100 + 240 + (40 * 3)
         end_y = 15 + (40*6)+(40*3)+40
-        for i in range(5):
+        for _ in range(5):
             self.make_canvas.create_line(start_x, start_y, end_x, end_y, width=3)
             start_y += 40
             end_y += 40
@@ -513,7 +513,7 @@ class Ludo:
         entry_take_red.place(x=40,y=15+80)
         final_move = Button(self.make_canvas,bg="black",fg="#00FF00",relief=RAISED,bd=5,text="Give",font=("Arial",8,"bold"),command=lambda: self.main_controller("red",entry_take_red.get()),state=DISABLED)
         final_move.place(x=42,y=15+140)
-        Label(self.make_canvas,text="Player 1",bg="blue",fg="yellow",font=("Arial",15,"bold")).place(x=15,y=15+140+40)
+        Label(self.make_canvas,text="Player 1",bg="#4d4dff",fg="gold",font=("Arial",15,"bold")).place(x=15,y=15+140+40)
         self.store_instructional_btn(block_predict_red,predict_red,entry_take_red,final_move)
 
     def instruction_btn_sky_blue(self):
@@ -525,7 +525,7 @@ class Ludo:
         entry_take_sky_blue.place(x=40, y=15+(40*6+40*3)+40 + 50)
         final_move = Button(self.make_canvas, bg="black", fg="#00FF00", relief=RAISED, bd=5, text="Give", font=("Arial", 8, "bold"),command=lambda: self.main_controller("sky_blue",entry_take_sky_blue.get()),state=DISABLED)
         final_move.place(x=42, y=15+(40*6+40*3)+40 + 110)
-        Label(self.make_canvas, text="Player 2", bg="blue", fg="yellow", font=("Arial", 15, "bold")).place(x=15,y=15+(40*6+40*3)+40 + 110+ 40)
+        Label(self.make_canvas, text="Player 2", bg="#4d4dff", fg="gold", font=("Arial", 15, "bold")).place(x=15,y=15+(40*6+40*3)+40 + 110+ 40)
         self.store_instructional_btn(block_predict_sky_blue, predict_sky_blue, entry_take_sky_blue, final_move)
 
     def instruction_btn_yellow(self):
@@ -537,7 +537,7 @@ class Ludo:
         entry_take_yellow.place(x=100 + (40 * 6 + 40 * 3 + 40 * 6 + 2)+13, y=15 + (40 * 6 + 40 * 3) + 40 + 50)
         final_move = Button(self.make_canvas, bg="black", fg="#00FF00", relief=RAISED, bd=5, text="Give",font=("Arial", 8, "bold"),command=lambda: self.main_controller("yellow",entry_take_yellow.get()),state=DISABLED)
         final_move.place(x=100 + (40 * 6 + 40 * 3 + 40 * 6 + 2)+17, y=15 + (40 * 6 + 40 * 3) + 40 + 110)
-        Label(self.make_canvas, text="Player 3", bg="blue", fg="yellow", font=("Arial", 15, "bold")).place(x=100 + (40 * 6 + 40 * 3 + 40 * 6 + 2),y=15 + (40 * 6 + 40 * 3) + 40 + 110 + 40)
+        Label(self.make_canvas, text="Player 3", bg="#4d4dff", fg="gold", font=("Arial", 15, "bold")).place(x=100 + (40 * 6 + 40 * 3 + 40 * 6 + 3),y=15 + (40 * 6 + 40 * 3) + 40 + 110 + 40)
         self.store_instructional_btn(block_predict_yellow, predict_yellow, entry_take_yellow, final_move)
 
     def instruction_btn_green(self):
@@ -549,7 +549,7 @@ class Ludo:
         entry_take_green.place(x=100+(40*6+40*3+40*6+2)+13, y=15 + 80)
         final_move = Button(self.make_canvas, bg="black", fg="#00FF00", relief=RAISED, bd=5, text="Give",font=("Arial", 8, "bold"),command=lambda: self.main_controller("green",entry_take_green.get()),state=DISABLED)
         final_move.place(x=100+(40*6+40*3+40*6+2)+17, y=15 + 140)
-        Label(self.make_canvas, text="Player 4", bg="blue", fg="yellow", font=("Arial", 15, "bold")).place(x=100+(40*6+40*3+40*6+2), y=15 + 140+40)
+        Label(self.make_canvas, text="Player 4", bg="#4d4dff", fg="gold", font=("Arial", 15, "bold")).place(x=100+(40*6+40*3+40*6+3), y=15 + 140+40)
         self.store_instructional_btn(block_predict_green, predict_green, entry_take_green, final_move)
 
 

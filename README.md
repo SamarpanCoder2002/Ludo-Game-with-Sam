@@ -10,7 +10,7 @@
 
 <p align="center"><img src="https://1.bp.blogspot.com/-Cda51ZpZEZs/X88bYBXUBMI/AAAAAAAAAr8/jSEVa5dstWUKfb0aEzUtoJS13mEotSSIACLcBGAsYHQ/w945-h600-p-k-no-nu/ludo_board.png"></p>
 
-###  <p align="center">⚒️ _Yes, This is Ludo Game made by Python(Version 3) Tkinter_</p>
+###  <p align="center">⚒️ _Yes, This is Ludo Game made in Python(Version 3) Tkinter by Samarpan Dasgupta_</p>
 
 ---
 

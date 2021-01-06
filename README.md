@@ -15,7 +15,7 @@
 
 ---
 
-## <p align="center"> 💻 _This is a Desktop App_</p>
+## <p align="center"> 💻 <i>_This is a Desktop App_</i></p>
 ### <p align="center"> Minimum Players to participate: 2 Players</p>
 ### <p align="center"> Maximum Players to participate: 4 Players</p>
 

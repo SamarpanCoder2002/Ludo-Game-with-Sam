@@ -21,7 +21,7 @@
 
 
 ---
-<h2 align="center"><b>💡 Some Important Links 💡</b></h2>
+<h3 align="center"><b>💡 Some Important Links 💡</b></h3>
 
 - ### [Click Here to See the Project Video](https://youtu.be/K6LHcfr1HMQ "LCO")
 
